@@ -1,0 +1,139 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+	font-family: 'Unibody8ProRegular';
+	src: url('webfonts/unibody8pro-regular.eot');
+	src: url('webfonts/unibody8pro-regular.eot') format('embedded-opentype'),
+		 url('webfonts/unibody8pro-regular.woff') format('woff'),
+		 url('webfonts/unibody8pro-regular.ttf') format('truetype'),
+		 url('webfonts/unibody8pro-regular.svg#Unibody8ProRegular') format('svg');
+}
+
+.unibody {
+font-family: 'Unibody8ProRegular',Arial,Helvetica,sans-serif;
+font-weight: lighter;
+color: #FF5D00;
+}
+
+.center {
+	text-align:center;
+}
+
+.rhlorange {
+	color:#e87020;
+}
+
+.rhlgreen {
+	color:#07b90f;
+}
+
+.rhlblue {
+	color:#1496a2;
+}
+
+.rhlmagenta {
+	color:#c73b99;
+}
+
+.blacktext {
+	color:#000000;
+}
+
+.rhlgreenmute {
+	color:#838300;
+}
+
+i {
+	min-width: 15px;
+}
+
+.panelblack {
+	background-color:#000000;
+}
+
+.panelblue {
+	background-color:#1496a2;
+}
+
+.paneldarkblue {
+	background-color:#0f396b;
+}
+
+.panelmagenta {
+	background-color:#8c0660;
+}
+
+.panelorange {
+	background-color:#e87020;
+}
+
+
+.resetspacing {
+	margin:0px;
+	padding:15px auto 15px auto;
+}
+
+.stripspacing {
+	margin:0px;
+	padding:15px 0px 15px 0px;
+}
+
+.addpadding {
+	padding:1.2em;
+}
+
+.marginleftright {
+	margin: auto auto;
+}
+
+.textaligncenter {
+	text-align:center;
+}
+
+.backgroundcircuit {
+	background-color: #060606;
+  	background-image:url('images/minitile.jpg');
+  	background-repeat: repeat;
+}
+
+.bordertopmagenta {
+	border-top: 1px solid #56023a;
+}
+
+.zerobottom {
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+.miniwallpaper {
+	background-image:url('../img/miniwallpaper.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:38rem;
+}
+
+.borderblue {
+	border-top: 2px solid #1496a2;
+}
+
+.semiblackbackground {
+	background-color:rgba(0,0,0,.67);
+}
+
+.roundedcorners {
+	border:0px solid #bbb1a7;
+	border-radius:10px;
+}
+
+.padtopbottom {
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+.middle {
+	vertical-align:middle;
+}
