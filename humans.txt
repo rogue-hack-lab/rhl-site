@@ -5,6 +5,7 @@
 
     <name> -- <role> -- <twitter>
     Mica Cardillo -- software engineer -- @Soupala
+    Pat Cunningham -- software engineer -- @pcunning
 
 # THANKS
 
