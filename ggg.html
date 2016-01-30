@@ -68,6 +68,16 @@
 </div>
 
 
+
+
+<div class="container">
+	<!-- Example row of columns -->
+	<div class="row text-center">
+		<h1 id="countdown-holder"></h1>
+	</div>
+</div>
+
+
 <div class="container">
 	<!-- Example row of columns -->
 	<div class="row">
@@ -123,5 +133,16 @@ $("#video").fitVids();
 	ga('send', 'pageview');
 
 </script>
+
+<script src="js/countdown.js"></script>
+<script>
+		var clock = document.getElementById("countdown-holder"), targetDate = new Date(2016, 00, 31, 15, 0); // Jan 1, 2050;
+
+		clock.innerHTML = countdown(targetDate).toString();
+		setInterval(function(){
+			clock.innerHTML = countdown(targetDate).toString();
+		}, 1000);
+	</script>
+
 </body>
 </html>
