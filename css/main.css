@@ -137,3 +137,7 @@ i {
 .middle {
 	vertical-align:middle;
 }
+
+.panelblue a {
+	color: #e87020;
+}
